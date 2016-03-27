@@ -1,0 +1,25 @@
+# EGOBOT CONFIG
+#
+# Note: You can also store configs in any other file ending in config.yml (e.g.
+# twitter-config.yml), which is recommended if you are committing this project
+# to a repo as it contains sensitive credentials.
+
+# Which Twitter accounts do you want to notify about?
+accounts:
+- youtube
+- iamdevloper
+- big_ben_clock
+
+# You need a Twitter app for this.
+# Make one at https://apps.twitter.com/, then visit https://apps.twitter.com/app/<your-app-id>/keys,
+# then generate an access token and secret, and you should see all 4 required values on that page
+twitter:
+  consumer_key: insert-here
+  consumer_secret: insert-here
+  access_token: insert-here
+  access_token_secret: insert-here
+
+# You need a Slack webhook for this.
+# Make one at https://<your-slack-team-id>.slack.com/apps/build/custom-integration
+slack:
+  webhook: insert-here
