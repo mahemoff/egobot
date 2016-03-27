@@ -33,4 +33,4 @@ Twit::Client.setup config
 # Fetch each account and post stats
 ##############################################################################
 
-config.accounts.each { |account| puts account; Egobot.fetch_and_notify account }
+config.accounts.each { |account| Egobot.fetch_and_notify account }

@@ -4,7 +4,7 @@ Social stats on slack
 Egobot posts recent Twitter stats to Slack. You can configure one or more
 Twitter accounts to be fetched and posted simultaneously.
 
-![Egobot screenshot](http://i.imgur.com/ybWRD63.jpg)
+![Egobot screenshot](http://i.imgur.com/A79gs9V.jpg)
 
 # 🔥  Setup
 

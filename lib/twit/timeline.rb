@@ -15,7 +15,7 @@ module Twit
         !tweet.retweet? && tweet.created_at > @options.earliest && tweet.created_at < @options.latest
       }
 
-      @total_rts = @total_favs = 0
+      @total_rts, @total_favs = 0, 0 
       @tweets.each { |tweet|
         @total_rts += tweet.retweet_count
         @total_favs += tweet.favorite_count
